@@ -117,7 +117,7 @@ if (document.getElementById('dashboard')) {
     if (userDoc.exists()) {
       const data = userDoc.data();
       document.getElementById('value').textContent = data.balance;
-      document.getElementById('ref-link').textContent = `${window.location.origin}/auth.html?ref=${data.refCode}`;
+      document.getElementById('ref-link').textContent = `${window.location.origin}/index.html?ref=${data.refCode}`;
 
       // Disable earn button if already claimed
       const earnBtn = document.getElementById('earn-btn');
