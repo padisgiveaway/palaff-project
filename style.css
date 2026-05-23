@@ -1,0 +1,173 @@
+body {
+  font-size: 15pt;
+  margin: 0;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+  padding-bottom: 20px;
+}
+
+.intro {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.intro p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 1000;
+  color: purple;
+}
+
+#auth-box {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#auth-box input {
+  width: 90%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 10px;
+  border: 2px solid purple;
+  font-size: 16px;
+}
+
+#auth-box button {
+  width: 95%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 1000;
+}
+
+#account {
+  width: 100%;
+  padding: 20px 0;
+}
+
+#account p {
+  text-align: center;
+  font-size: 20px;
+  color: blue;
+  font-weight: 1000;
+}
+
+#dashboard {
+  width: 95%;
+  margin: 0 auto;
+  height: 17vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dashboard p {
+  font-size: 30px;
+  color: hsla(235, 42%, 60%, 1);
+  font-weight: 1000;
+}
+
+#dashboard p span {
+  color: white;
+  font-size: 35px;
+}
+
+.btn-wh {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  padding: 12px;
+  background-color: yellow;
+  border: 1px solid green;
+  font-size: 20px;
+  font-weight: 1000;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+#copi, #withdraw-btn, #logout-btn {
+  width: 80%;
+  margin: 10px auto;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  font-weight: 1000;
+}
+
+.btn-withdraw {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.link {
+  color: white;
+  word-break: break-all;
+  padding: 0 10px;
+}
+
+.about,
+.refinfo{
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 30px;
+  border: 2px solid rebeccapurple;
+  text-align: center;
+}
+
+.intro{
+    width: 100%;
+    height: 32vh;
+}
+.intro p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 1000;
+    color: purple;
+    -webkit-text-stroke: 1px blue;
+}
+.showimgbox{
+    justify-content: center;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 6vh;
+}
+.showimgbox img{
+    width: 200px;
+    height: 200px;
+}
+.about{
+    width: 80%;
+    min-height: 10vh;
+    border-radius: 30px;
+    border: 2px solid rebeccapurple;
+    box-shadow: 3px 3px grey;
+    margin-bottom: 5px;
+}
+.about p,
+.about ol,
+.about br{
+    text-align: center;
+    font-weight: 1000;
+    -webkit-text-stroke: 1px rebeccapurple;
+}

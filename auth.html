@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Palaff - Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div class="intro">
+      <p>Welcome to Palaff</p>
+      <p>Login or Sign Up</p>
+    </div>
+
+    <div id="auth-box">
+      <input type="text" id="name" placeholder="Full Name" style="display:none;">
+      <input type="text" id="acc-number" placeholder="Account Number" style="display:none;">
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      
+      <button id="login-btn">Login</button>
+      <button id="signup-btn">Sign Up</button>
+      <p id="auth-msg"></p>
+    </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
