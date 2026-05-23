@@ -107,7 +107,7 @@ if (document.getElementById('login-btn')) {
 if (document.getElementById('dashboard')) {
   onAuthStateChanged(auth, async (user) => {
     if (!user) {
-      window.location.href = "auth.html";
+      window.location.href = "index.html";
       return;
     }
 
