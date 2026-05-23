@@ -195,7 +195,7 @@ if (document.getElementById('dashboard')) {
     // Logout
     document.getElementById('logout-btn').addEventListener('click', async () => {
       await signOut(auth);
-      window.location.href = "auth.html";
+      window.location.href = "index.html";
     });
   });
 }
